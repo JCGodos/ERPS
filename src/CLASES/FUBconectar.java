@@ -18,9 +18,9 @@ import java.sql.Statement;
 public class FUBconectar {
     private static Connection conn ;
     private static final String driver="com.mysql.jdbc.Driver";
-    private static final String user= "root";
-    private static final String password= "llFRANK2017ll";
-    private static final String url="jdbc:mysql://localhost:3306/jc?zeroDateTimeBehavior=convertToNull";
+    private static final String user= "FUB";
+    private static final String password= "";
+    private static final String url="jdbc:mysql://localhost:3306/erperp?zeroDateTimeBehavior=convertToNull";
 
     static Statement createStatement() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.

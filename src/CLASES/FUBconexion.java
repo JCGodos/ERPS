@@ -77,9 +77,8 @@ public class FUBconexion {
         Class.forName(url).newInstance();
         String ruta;
         
-            ruta = "jdbc:mysql://localhost:3306/jc?zeroDateTimeBehavior=convertToNull";
-        cn=DriverManager.getConnection(ruta,"root","llFRANK2017ll");
-
+            ruta = "jdbc:mysql://localhost:3306/erperp?zeroDateTimeBehavior=convertToNull";
+        cn=DriverManager.getConnection(ruta,"FUB","");
         
           
         st=cn.createStatement(ResultSet.TYPE_SCROLL_SENSITIVE, ResultSet.FETCH_FORWARD);

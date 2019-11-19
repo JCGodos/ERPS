@@ -55,7 +55,6 @@ int xx;
      */
     int yy;
     MENSAJE2 men=new MENSAJE2();
-    NCLIENTE ncliente=new NCLIENTE();
 //    HISTORIAS HISTO=new HISTORIAS();
     File fichero = null;
     private JPanel contentPane;
@@ -220,7 +219,7 @@ int xx;
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("MENU");
         panelNice1.add(jLabel1);
-        jLabel1.setBounds(50, 35, 90, 28);
+        jLabel1.setBounds(50, 35, 90, 32);
 
         bOTON1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -523,7 +522,7 @@ int xx;
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
-        ncliente.setVisible(true);
+       
 //        setVisible(false);
     }//GEN-LAST:event_jButton4ActionPerformed
    
